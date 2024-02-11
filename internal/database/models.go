@@ -41,7 +41,7 @@ type TersePlayer struct {
 	MaxHp          int64            `json:"max_hp"`
 	ShieldHp       int64            `json:"shield_hp"`
 	ShieldMaxHp    int64            `json:"shield_max_hp"`
-	MaxStatusPoint int32            `json:"max_status_point"`
+	MaxStatusPoint int64            `json:"max_status_point"`
 	StatusPoint    map[string]int32 `json:"status_point"`
 	FullStomach    float64          `json:"full_stomach"`
 	PlayerRcon
