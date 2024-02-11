@@ -29,7 +29,7 @@ message Player {
     int64 max_hp = 6;
     int64 shield_hp = 7;
     int64 shield_max_hp = 8;
-    int32 max_status_point = 9;
+    int64 max_status_point = 9;
     map<string, int32> status_point = 10;
     double full_stomach = 11;
     repeated Pal pals = 12;
